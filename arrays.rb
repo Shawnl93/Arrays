@@ -32,3 +32,13 @@ puts Emails[1]
 #This should say 22
 
 puts Ages[2]
+
+# delete() Deletes all items from self that are equal to obj.
+# Returns the last deleted item, or nil if no matching item is found.
+# If the optional code block is given, the result of the block is returned if
+# the item is not found.
+
+# This should delete 12.22 and should show 27.35 8.90, 24.30, 4.30 because
+# we added the 27.35 previously
+
+Lunch_cost.delete(12.22)
