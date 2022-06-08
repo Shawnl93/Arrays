@@ -24,3 +24,11 @@ Lunch_cost.unshift(27.35)
 #This will add another false at the end
 
 Hungry.push(true)
+
+#This should say email2@turing.com
+
+puts Emails[1]
+
+#This should say 22
+
+puts Ages[2]
